@@ -1,0 +1,49 @@
+PODS:
+  - Backendless (5.2.9):
+    - Socket.IO-Client-Swift (~> 13.3.0)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GTMSessionFetcher/Core (1.2.1)
+  - Socket.IO-Client-Swift (13.3.1):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.5)
+  - SwiftSoup (1.7.4)
+
+DEPENDENCIES:
+  - Backendless
+  - GoogleSignIn
+  - Starscream (<= 3.0.5)
+  - SwiftSoup
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Backendless
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftSoup
+
+SPEC CHECKSUMS:
+  Backendless: e88a8b8542f701dc9ae28de9775eec71a8e02838
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  Socket.IO-Client-Swift: 79f8f85fa44881838175a20f9bd2c32bef2c9d37
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+  SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
+
+PODFILE CHECKSUM: 4d794c86adcd0823c5d7d1869bb2dc165cd2c797
+
+COCOAPODS: 1.5.3
